@@ -24,7 +24,6 @@ def getPrice():
     
     img = soup.find('div',{'class':"sc-16r8icm-0 gpRPnR nameHeader"}).find('img')["src"]
     
-    
     print(img)
 
     #price = soup.find('div',{'class':"sc-16r8icm-0 kjciSH priceTitle"}).find('span').text
